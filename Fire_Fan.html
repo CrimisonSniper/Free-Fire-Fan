@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire Fan Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: white;
+        }
+        header {
+            background: url('https://wallpaperaccess.com/full/5601085.jpg') no-repeat center center/cover;
+            height: 300px;
+            text-align: center;
+            color: white;
+            padding-top: 100px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            background: orange;
+            border-radius: 5px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background: orange;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Welcome to Free Fire Fan Website
+</header>
+
+<nav>
+    <a href="#updates">Updates</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="updates">
+    <h2>Latest Updates</h2>
+    <p>🔥 New weapons and skins released! Check out the latest Free Fire updates.</p>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://wallpapercave.com/wp/wp6343236.jpg" alt="Free Fire Image">
+        <img src="https://wallpapercave.com/wp/wp5505267.jpg" alt="Free Fire Battle">
+        <img src="https://wallpapercave.com/wp/wp7157021.jpg" alt="Free Fire Skin">
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+        <input type="text" placeholder="Your Name"><br>
+        <input type="email" placeholder="Your Email"><br>
+        <textarea rows="5" placeholder="Your Message"></textarea><br>
+        <button onclick="sendMessage()">Send Message</button>
+    </div>
+</section>
+
+<script>
+    function sendMessage() {
+        alert('Your message has been sent!');
+    }
+</script>
+
+</body>
+</html>
